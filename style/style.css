@@ -96,3 +96,16 @@ h1  {
     display: list-item;
     position: relative;
 }
+img {
+    width: 60%;
+    margin: 0 auto;
+    padding: 1%;
+    float: left;
+}
+.block  {
+    width: 100%;
+}
+p   {
+    font-size: 5vh;
+    text-align: center;
+}
