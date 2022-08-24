@@ -1,0 +1,98 @@
+*   {
+    margin: 0;
+    padding: 0;
+    outline: o;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+
+html    {
+    font-size: 16px;
+}
+
+body    {
+    font-size: 1rem;
+    line-height: 1;
+}
+
+a   {
+    text-decoration: none;
+}
+
+ul, ol  {
+    list-style: none;
+   
+}
+
+.header {
+    display: flex;
+    
+}
+
+h1  {
+    font-size: 7vh;/*висота назви*/
+    text-align: start;/*де розташован тескт*/
+    padding: 7px;/*відступи від тексту*/
+}
+.topnav-right   {
+    float: right;/*вирівнює за правим краєм*/
+    font-size: 20px;/*розмір тексту*/
+    padding: 14px 16px;/*відступи*/
+    text-decoration: none;/*не має лініЇ,яка підкреслює посилання*/
+    text-align: center;/*текст посередині*/
+}
+
+.topnav {
+    background-color: antiquewhite;/*колір для всього меню*/
+    overflow: hidden;
+}
+.topnav a:hover {
+    color: rgb(240, 10, 240);/*колір при наведенні */
+    background-color: white;/*колір рамки посилання*/
+}
+.topnav a   {
+    color: black;/*колір посилання*/
+    font-size: 20px;/*розмір тексту*/
+    padding: 14px 16px;/*відступи*/
+    text-decoration: none;/*не має лініЇ,яка підкреслює посилання*/
+    text-align: center;/*текст посередині*/
+}
+.menu   {
+    background-color: white;
+}
+.menu ul    {
+    position: relative;
+}
+.menu ul li   {
+    margin: 0 -7px 0 0;
+    display: inline-block;/**/
+    background-color: white;/**/
+}
+.menu a {
+    display: block;/**/
+    padding: 0 10px;/*відступи*/
+    color: black;/*колір посилання*/
+    font-size: 20px;/*розмір тексту*/
+    line-height: 60px;/*висота*/
+    text-decoration: none;/*не має лініЇ,яка підкреслює посилання*/
+}
+
+.menu a:hover {
+    background-color: grey;/*змінює колір при наведенні*/
+}
+
+.menu ul ul   {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+.menu ul li:hover > ul  {
+    display: inherit;
+}
+.menu ul ul li  {
+    min-width: 70px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
