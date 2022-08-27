@@ -105,7 +105,37 @@ img {
 .block  {
     width: 100%;
 }
-p   {
-    font-size: 5vh;
+.teхt__special,
+.teхt__third  {
+    font-size: 4vh;
     text-align: center;
+}
+p   {
+    font-size: 3vh;
+    width: 100%;
+    text-align: center;
+    padding: 4.4%;
+}
+.teхt__special  {
+    padding: 1%;
+}
+.teхt__third    {
+    padding: 0.7%;
+}
+nav {
+    position: fixed;
+    top: 50%;
+    left: 20px;
+}
+nav a   {
+    display: block;
+    color: white;
+}
+.container_first    {
+    background: url(../imgs/dominican_2.jpg);
+    background-size: 100% 100%;
+}
+.teхt_focus {
+    margin: 0.2%;
+    padding: 3.2%;
 }
